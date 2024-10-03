@@ -9,7 +9,7 @@ function App() {
 
   const PasswordGenerator = useCallback(() => {
     let pass = "";
-    let str = "ABCDEFGHIJKLMNOPQRSTUVWXYZabcsefghijklmnopqrstuvwxyz";
+    let str = "ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz";
     let num = "0123456789";
     let sym = "!@#$%^&*(){}`~_-=+/|,.<>";
 
